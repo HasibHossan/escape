@@ -1,0 +1,449 @@
+@font-face {
+    font-family: bradon-b;
+    src: url(../font/Brandon-Grotesque-Font-Family/Brandon_bold.otf);
+}
+@font-face {
+    font-family: bradon-m;
+    src: url(../font/Brandon-Grotesque-Font-Family/Brandon_medium.otf);
+}
+@font-face {
+    font-family: bradon-l;
+    src: url(../font/Brandon-Grotesque-Font-Family/Brandon_light.otf);
+
+}
+@font-face {
+    font-family: bradon-r;
+    src: url(../font/Brandon-Grotesque-Font-Family/Brandon_regular.otf);
+}
+
+
+
+
+
+
+
+body{
+    font-family:bradon-r ;
+    font-size: 18px;
+}
+
+.bg{
+    border: 1PX solid;
+    background-image: url(../img/Escape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    overflow: hidden;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 10px;
+    
+    width:12%
+    
+    
+}
+
+.logo img{
+    
+        width:100%
+}
+
+ul{
+    overflow: hidden;
+    float: right;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: bradon-m;
+    font-weight: 500;
+}
+
+/* txt part start  */
+
+
+    .txt{
+       
+        width: 50%;
+        
+        margin: 0 auto;
+         margin-top: 100px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .txt p{
+        font-family: bradon-l;
+        font-size:32px ;
+        font-weight: 100;
+        margin-top:20px ;
+    }
+    .txt h1 {
+        font-family: bradon-b;
+        font-size: 65px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-top:20px ;
+    }
+    .txt .btn{
+        width: 24%;
+        font-family: bradon-b;
+        font-size: 23px;
+        font-weight: 800;
+        border: 1px solid rgb(255, 255, 255);
+        margin-top:20px ;
+        color: aliceblue;
+    }
+    .txt{}
+
+
+
+
+
+/* txt part end  */
+
+/* nav and banner part end */
+
+/* web and identity part start */
+    .details{
+        
+        margin: 100px 0 200px 0;
+    }
+
+        .container{
+            
+            width: 85%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .wrapper{
+            
+            overflow: hidden;
+        }
+
+        .details-txt{
+            
+            margin-left: 50px;
+            width: 60%;
+            float: left;
+        }
+        .details-txt h1{
+            
+            font-family: bradon-l;
+            font-weight: 200;
+            font-size: 65px;
+            margin-bottom: 50px;
+        }
+        .details-txt h1 span{
+            
+            font-family: bradon-b;
+            font-weight: 600;
+            font-size: 65;
+        }
+        .details-txt p{
+            
+            font-family: bradon-r;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .details-icon{
+            
+            width: 25%;
+            height: 275px;
+            float: right;
+            margin-right: 50px;
+        
+        }
+        .details-icon img{
+            width: 100%;
+            height: 100%;
+        }
+
+/* this code for identity  */
+        .first{
+            float: right;
+            margin-right: 50px;
+        }
+        .sec{
+            float: left;
+            margin: 0px ;
+            margin-left: 20px;
+
+        }
+        .d2{
+            background-color: #fafafa;
+            margin: 0;
+            padding: 100px 0 100px 0;
+        }
+/* web and identity part end */
+/* feature start  */
+   
+       .bootstap-feature{
+        margin: 100px 0;
+       }
+        
+
+       .f-img{
+           width: 75px;
+           height: 85px;
+          
+           
+       }
+       .f-img img{
+           width: 100%;
+           height: 100%;
+       }
+       
+       .f-txt{
+           
+       }
+       .f-txt h1{
+           font-size: 22px;
+           font-weight: 700;
+       }
+       .f-txt p{
+           font-size: 18px;
+           font-weight: 400;
+       }
+/* feature end  */
+
+
+/* review-section start */
+
+    .review{
+        padding: 100px 0px;
+        background-color: #fafafa;
+    }
+
+    .review .col-8{
+        background-color: white;
+    }
+
+    .review-header{
+        width: 60%; 
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .review-header h1{
+        font-family: bradon-l;
+        font-weight: 200;
+        font-size: 55px;
+        
+    }
+
+    .review-header h1 span{
+        font-family: bradon-b;
+        font-weight: 600;
+        font-size: 55;
+    }
+
+    .review-header p{
+        font-family: bradon-r;
+    font-weight: 400;
+    font-size: 18px;
+    }
+
+   
+
+    .review-txt{
+        margin-top: 50px;
+       
+    }
+
+    .review-img{
+        margin: 0 0 0 50px;
+        width: 230px;
+        height: 230px;
+        
+    }
+    .review-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+  
+
+    .review-box-txt{
+        margin-top: 20px;
+       padding: 25px 50px;
+        width: 550px;
+        height: 100px;
+        
+    }
+    .review-box-txt p{
+        font-family: bradon-r;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .review-box-txt p:last-child{
+        color: rgb(42, 34, 255);
+        font-size: 18px;
+    }
+
+    /* 2nd review  */
+    .sec-review{
+        margin-top: 50px;
+    }
+
+    .sec-review-txt{
+        margin:  50px 0 0 0 ;
+        padding: 0 0 0 100px;
+       
+    }
+/* review-section end */
+
+/* clients name start  */
+    .clients-review{
+        margin: 100px 0;
+    }
+
+    .c-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+/* clients name end  */
+
+/* team member profile start */
+
+    .team-member{
+        background-color: black;
+        color: aliceblue;
+        height: 850px;
+        
+    }
+    .t-h{
+        margin: 80px auto;
+    }
+
+
+   .t-m-profile{
+    margin-bottom: 50px;
+   }
+    .t-m-single{
+        
+        text-align: center;
+        
+    }
+    .profile-img{
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+        margin: 0 auto 30px auto;
+    }
+    .profile-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-txt h1{
+        font-family: bradon-b;
+        font-size: 18px;
+        
+
+    }
+    .profile-txt p{
+        margin-bottom: 10px;
+    }
+
+    .profile-icon{
+        width: 60%;
+        margin: 0 30%;
+    }
+    .profile-icon .col-3{
+        width: 20%;
+       
+
+    }
+    .profile-icon img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .ending-txt p{
+        margin-bottom: 5px;
+    }
+
+/* team member profile  end*/
+
+/* footer part start  */
+    footer{
+        height: 650px;
+        background-color: #7690c5;
+        color: white;
+    }
+
+    .section{
+        margin-top: 100px;
+    }
+
+    footer address{
+        margin-top: 50px;
+        
+
+    }
+
+    .footer-txt{
+        
+        height: 380px;
+        
+        text-align: left;
+        
+    }
+
+    .f-t-header{
+        text-align: left;
+        margin: 0;
+        width: 85%;
+    }
+    .f-t-header p{
+        font-size: 20px;
+    }
+    
+    footer .col-2 img{
+        width: 80%;
+        height: 60%;
+    }
+    /* footer form  */
+    
+    .footer-form{
+        
+        height: 380px;
+       
+        
+    }
+    .footer-form form input{
+        margin-bottom: 30px;
+        border-radius: 5px;
+        width: 500px;
+        height: 50px;
+        border: 0px;
+        outline: 0px;
+    }
+
+    .footer-form form input:last-child{
+        height: 210px;
+    }
+    /* footer part end  */
